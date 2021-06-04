@@ -290,6 +290,7 @@ C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\ob
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Gruppo1.RazorCoreGenerate.cache
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -304,4 +305,3 @@ C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\ob
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\ref\Gruppo1.dll
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Gruppo1.pdb
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Gruppo1.genruntimeconfig.cache
-C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs

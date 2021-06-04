@@ -9,9 +9,9 @@ using Microsoft.EntityFrameworkCore;
 namespace Gruppo1_Model
 {
     [Table("Product", Schema = "SalesLT")]
-    [Index(nameof(Name), Name = "AK_Product_Name", IsUnique = true)]
+    /*[Index(nameof(Name), Name = "AK_Product_Name", IsUnique = true)]
     [Index(nameof(ProductNumber), Name = "AK_Product_ProductNumber", IsUnique = true)]
-    [Index(nameof(Rowguid), Name = "AK_Product_rowguid", IsUnique = true)]
+    [Index(nameof(Rowguid), Name = "AK_Product_rowguid", IsUnique = true)]*/
     public partial class Product
     {
         public Product()

@@ -34,6 +34,10 @@ namespace Gruppo1
         // GET: ProductController/Create
         public ActionResult Create()
         {
+            var categories = _repository.GetListCategories();
+            var models = _repository.GetListModels();
+            ViewBag.categories = categories;
+            ViewBag.models = models;
             return View();
         }
         // POST: ProductController/Create
@@ -41,7 +45,6 @@ namespace Gruppo1
         [ValidateAntiForgeryToken]
         public ActionResult Create(Product data)
         {
-            Console.WriteLine("un ogget: ", data);
             if (ModelState.IsValid)
             {
                 _repository.InsertProduct(data);

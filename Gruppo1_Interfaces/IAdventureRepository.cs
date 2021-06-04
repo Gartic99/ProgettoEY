@@ -9,8 +9,8 @@ namespace Gruppo1_Interfaces
     public interface IAdventureRepository
     {
         IEnumerable<Product> GetListProducts();
-        IEnumerable<Category> GetListCategories();
-        IEnumerable<Model> GetListModels();
-        int InsertProduct(Product item);
+        IEnumerable<ProductCategory> GetListCategories();
+        IEnumerable<ProductModel> GetListModels();
+        void InsertProduct(Product item);
     }
 }

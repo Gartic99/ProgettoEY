@@ -52,16 +52,26 @@
                 <input asp-for="Weight" class="form-control" />
                 <span asp-validation-for="Weight" class="text-danger"></span>
             </div>-->
-            <!--<div class="form-group">
-                <label asp-for="ProductCategoryId" class="control-label"></label>
-                <input asp-for="ProductCategoryId" class="form-control" />
+            <div class="form-group">
+                <label asp-for="ProductCategoryId" class="control-label">Product Category</label>
+                <select asp-for="ProductCategoryId" class="form-control">
+                    @foreach (var item in ViewBag.categories)
+                    {
+                        <option value="@item.ProductCategoryId">@item.Name</option>
+                    }
+                </select>
                 <span asp-validation-for="ProductCategoryId" class="text-danger"></span>
-            </div>-->
-            <!--<div class="form-group">
+            </div>
+            <div class="form-group">
                 <label asp-for="ProductModelId" class="control-label"></label>
-                <input asp-for="ProductModelId" class="form-control" />
+                <select asp-for="ProductModelId" class="form-control">
+                    @foreach (var item in ViewBag.models)
+                    {
+                        <option value="@item.ProductModelId">@item.Name</option>
+                    }
+                </select>
                 <span asp-validation-for="ProductModelId" class="text-danger"></span>
-            </div>-->
+            </div>
             <div class="form-group">
                 <label asp-for="SellStartDate" class="control-label"></label>
                 <input asp-for="SellStartDate" class="form-control" />

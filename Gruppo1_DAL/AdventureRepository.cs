@@ -26,16 +26,16 @@ namespace Gruppo1_DAL
         {
             return _context.Set<Product>().AsQueryable();
         }
-        public IEnumerable<Category> GetListCategories()
+        public IEnumerable<ProductCategory> GetListCategories()
         {
-            return _context.Set<Category>().AsQueryable();
+            return _context.Set<ProductCategory>().AsQueryable();
         }
-        public IEnumerable<Model> GetListModels()
+        public IEnumerable<ProductModel> GetListModels()
         {
-            return _context.Set<Model>().AsQueryable();
+            return _context.Set<ProductModel>().AsQueryable();
         }
 
-        public int InsertProduct(Product item)
+        public void InsertProduct(Product item)
         {
             try
             {
@@ -48,8 +48,8 @@ namespace Gruppo1_DAL
                         cmd.CommandType = System.Data.CommandType.StoredProcedure;
                         cmd.CommandText = "InsertProduct";
                         //cmd.Parameters.Add(new SqlParameter("@ProductID", System.Data.SqlDbType.Int, 32)).Value = item.ProductID;
-                        cmd.Parameters.Add(new SqlParameter("@ProductCategoryID", System.Data.SqlDbType.Int, 32)).Value = 1;//item.ProductCategoryId;
-                        cmd.Parameters.Add(new SqlParameter("@ProductModelID", System.Data.SqlDbType.Int, 32)).Value = 1;// item.ProductModelId;
+                        cmd.Parameters.Add(new SqlParameter("@ProductCategoryID", System.Data.SqlDbType.Int, 32)).Value = item.ProductCategoryId;
+                        cmd.Parameters.Add(new SqlParameter("@ProductModelID", System.Data.SqlDbType.Int, 32)).Value = item.ProductModelId;
                         cmd.Parameters.Add(new SqlParameter("@Name", System.Data.SqlDbType.NVarChar, 50)).Value = item.Name;
                         cmd.Parameters.Add(new SqlParameter("@ProductNumber", System.Data.SqlDbType.NVarChar, 25)).Value = item.ProductNumber;
                         cmd.Parameters.Add(new SqlParameter("@StandardCost", System.Data.SqlDbType.Decimal, 20)).Value = item.StandardCost;
@@ -57,6 +57,7 @@ namespace Gruppo1_DAL
                         cmd.Parameters.Add(new SqlParameter("@SellStartDate", System.Data.SqlDbType.DateTime)).Value = item.SellStartDate;
                         //cmd.Parameters.Add(new SqlParameter("@Rowguid", System.Data.SqlDbType.UniqueIdentifier)).Value = item.Rowguid;
                         cmd.Parameters.Add(new SqlParameter("@ModifiedDate", System.Data.SqlDbType.DateTime)).Value = item.ModifiedDate;
+                        Console.WriteLine("i paramentri: ", cmd.Parameters);
                         cmd.ExecuteNonQuery();
                     }
                 }
@@ -71,7 +72,7 @@ namespace Gruppo1_DAL
                 Console.WriteLine(ex.Message);
                 throw;
             }
-            return item.ProductId;
+            //return item.ProductId;
         }
     }
 }
