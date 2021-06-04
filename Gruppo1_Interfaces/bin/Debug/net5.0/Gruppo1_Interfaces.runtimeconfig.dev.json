@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ghena\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ghena\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\bin\Debug\net5.0\Gruppo1_Model.deps.json
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\bin\Debug\net5.0\Gruppo1_Model.dll
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\bin\Debug\net5.0\ref\Gruppo1_Model.dll
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\bin\Debug\net5.0\Gruppo1_Model.pdb
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.csprojAssemblyReference.cache
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.AssemblyInfoInputs.cache
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.AssemblyInfo.cs
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.csproj.CoreCompileInputs.cache
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.dll
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\obj\Debug\net5.0\ref\Gruppo1_Model.dll
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.pdb
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\bin\Debug\net5.0\Gruppo1_Model.runtimeconfig.json
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\bin\Debug\net5.0\Gruppo1_Model.runtimeconfig.dev.json
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\Gruppo1\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.genruntimeconfig.cache
