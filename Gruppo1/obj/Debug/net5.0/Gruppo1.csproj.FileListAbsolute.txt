@@ -306,3 +306,5 @@ C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\ob
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Gruppo1.pdb
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Gruppo1.genruntimeconfig.cache
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs

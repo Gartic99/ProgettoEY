@@ -15,5 +15,9 @@ namespace Gruppo1_Interfaces
         void UpdateProduct(Product item);
 
         Product GetProductById(int id);
+
+        ProductCategory GetCategoryById(int? id);
+        ProductModel GetModelById(int? id);
+        void DeleteProduct(int Id);
     }
 }

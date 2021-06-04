@@ -28,7 +28,12 @@ namespace Gruppo1
         // GET: ProductController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            var item = _repository.GetProductById(id);
+            var category = _repository.GetCategoryById(item.ProductCategoryId);
+            var model = _repository.GetModelById(item.ProductModelId);
+            ViewBag.category = category.Name;
+            ViewBag.model = model.Name;
+            return View(item);
         }
 
         // GET: ProductController/Create
@@ -96,7 +101,12 @@ namespace Gruppo1
         // GET: ProductController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            var item = _repository.GetProductById(id);
+            var category = _repository.GetCategoryById(item.ProductCategoryId);
+            var model = _repository.GetModelById(item.ProductModelId);
+            ViewBag.category = category.Name;
+            ViewBag.model = model.Name;
+            return View(item);
         }
 
         // POST: ProductController/Delete/5
@@ -106,6 +116,7 @@ namespace Gruppo1
         {
             try
             {
+                _repository.DeleteProduct(id);
                 return RedirectToAction(nameof(Index));
             }
             catch

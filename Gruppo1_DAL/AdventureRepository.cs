@@ -96,5 +96,24 @@ namespace Gruppo1_DAL
         {
             return _context.Products.Single(e => e.ProductId == id);
         }
+
+        public ProductCategory GetCategoryById(int? id)
+        {
+            return _context.Set<ProductCategory>().Single(e => e.ProductCategoryId == id);
+        }
+        public ProductModel GetModelById(int? id)
+        {
+            return _context.Set<ProductModel>().Single(e => e.ProductModelId == id);
+        }
+
+        public void DeleteProduct(int Id)
+        {
+            var dbItem = _context.Products.Single(e => e.ProductId == Id);
+            if (dbItem != null)
+            {
+                _context.Remove(dbItem);
+                _context.SaveChanges();
+            }
+        }
     }
 }
