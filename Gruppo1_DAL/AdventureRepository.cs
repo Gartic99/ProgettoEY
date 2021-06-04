@@ -57,7 +57,6 @@ namespace Gruppo1_DAL
                         cmd.Parameters.Add(new SqlParameter("@SellStartDate", System.Data.SqlDbType.DateTime)).Value = item.SellStartDate;
                         //cmd.Parameters.Add(new SqlParameter("@Rowguid", System.Data.SqlDbType.UniqueIdentifier)).Value = item.Rowguid;
                         cmd.Parameters.Add(new SqlParameter("@ModifiedDate", System.Data.SqlDbType.DateTime)).Value = item.ModifiedDate;
-                        Console.WriteLine("i paramentri: ", cmd.Parameters);
                         cmd.ExecuteNonQuery();
                     }
                 }
@@ -73,6 +72,29 @@ namespace Gruppo1_DAL
                 throw;
             }
             //return item.ProductId;
+        }
+
+        public void UpdateProduct(Product item)
+        {
+            Console.WriteLine("item", item);
+            var dbItem = _context.Products.Single(e => e.ProductId == item.ProductId);
+            if (dbItem != null)
+            {
+                dbItem.ProductModelId = item.ProductModelId;
+                dbItem.Name = item.Name;
+                dbItem.Name = item.ProductNumber;
+                dbItem.StandardCost = item.StandardCost;
+                dbItem.ListPrice = item.ListPrice;
+                dbItem.SellStartDate = item.SellStartDate;
+                dbItem.ModifiedDate = item.ModifiedDate;
+                _context.Update(dbItem);
+                _context.SaveChanges();
+            }
+        }
+
+        public Product GetProductById(int id)
+        {
+            return _context.Products.Single(e => e.ProductId == id);
         }
     }
 }

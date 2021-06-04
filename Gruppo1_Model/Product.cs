@@ -30,9 +30,9 @@ namespace Gruppo1_Model
         public string ProductNumber { get; set; }
         [StringLength(15)]
         public string Color { get; set; }
-        [Column(TypeName = "money")]
+        [Column(TypeName = "decimal(8, 2)")]
         public decimal StandardCost { get; set; }
-        [Column(TypeName = "money")]
+        [Column(TypeName = "decimal(8, 2)")]
         public decimal ListPrice { get; set; }
         [StringLength(5)]
         public string Size { get; set; }

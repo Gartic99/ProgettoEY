@@ -12,5 +12,8 @@ namespace Gruppo1_Interfaces
         IEnumerable<ProductCategory> GetListCategories();
         IEnumerable<ProductModel> GetListModels();
         void InsertProduct(Product item);
+        void UpdateProduct(Product item);
+
+        Product GetProductById(int id);
     }
 }

@@ -27,3 +27,4 @@ C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1_Mo
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1_Model\obj\Debug\net5.0\ref\Gruppo1_Model.dll
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.pdb
 C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.genruntimeconfig.cache
+C:\Users\ghena\Desktop\Accademia-EY\esercitazione\Progetto\ProgettoEY\Gruppo1_Model\obj\Debug\net5.0\Gruppo1_Model.csprojAssemblyReference.cache

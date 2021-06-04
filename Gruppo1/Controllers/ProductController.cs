@@ -57,21 +57,39 @@ namespace Gruppo1
         // GET: ProductController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var categories = _repository.GetListCategories();
+            var models = _repository.GetListModels();
+            ViewBag.categories = categories;
+            ViewBag.models = models;
+            var item = _repository.GetProductById(id);
+            Console.WriteLine("un item", item);
+            return View(item);
         }
 
         // POST: ProductController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Product data)
         {
-            try
+            if (ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                _repository.UpdateProduct(data);
+                var categories = _repository.GetListCategories();
+                var models = _repository.GetListModels();
+                ViewBag.categories = categories;
+                ViewBag.models = models;
+                var item = _repository.GetProductById(id);
+                return View(item);
             }
-            catch
+            else
             {
-                return View();
+                Console.WriteLine("else");
+                var categories = _repository.GetListCategories();
+                var models = _repository.GetListModels();
+                ViewBag.categories = categories;
+                ViewBag.models = models;
+                var item = _repository.GetProductById(id);
+                return View(item);
             }
         }
 
