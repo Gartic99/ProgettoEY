@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1\\Gruppo1.csproj": {}
+    "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1\\Gruppo1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1\\Gruppo1.csproj": {
+    "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1\\Gruppo1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1\\Gruppo1.csproj",
+        "projectUniqueName": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1\\Gruppo1.csproj",
         "projectName": "Gruppo1",
-        "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1\\Gruppo1.csproj",
+        "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1\\Gruppo1.csproj",
         "packagesPath": "C:\\Users\\ghena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1\\obj\\",
+        "outputPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ghena\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_DAL\\Gruppo1_DAL.csproj": {
-                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_DAL\\Gruppo1_DAL.csproj"
+              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_DAL\\Gruppo1_DAL.csproj": {
+                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_DAL\\Gruppo1_DAL.csproj"
               },
-              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj": {
-                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj"
+              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj": {
+                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj"
               },
-              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj": {
-                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj"
+              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj": {
+                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_DAL\\Gruppo1_DAL.csproj": {
+    "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_DAL\\Gruppo1_DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_DAL\\Gruppo1_DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_DAL\\Gruppo1_DAL.csproj",
         "projectName": "Gruppo1_DAL",
-        "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_DAL\\Gruppo1_DAL.csproj",
+        "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_DAL\\Gruppo1_DAL.csproj",
         "packagesPath": "C:\\Users\\ghena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_DAL\\obj\\",
+        "outputPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ghena\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -117,11 +117,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj": {
-                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj"
+              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj": {
+                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj"
               },
-              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj": {
-                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj"
+              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj": {
+                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj"
               }
             }
           }
@@ -170,14 +170,14 @@
         }
       }
     },
-    "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj": {
+    "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj",
         "projectName": "Gruppo1_Interfaces",
-        "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj",
+        "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj",
         "packagesPath": "C:\\Users\\ghena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ghena\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -194,8 +194,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj": {
-                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj"
+              "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj": {
+                "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj"
               }
             }
           }
@@ -236,14 +236,14 @@
         }
       }
     },
-    "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj": {
+    "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj",
+        "projectUniqueName": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj",
         "projectName": "Gruppo1_Model",
-        "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj",
+        "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj",
         "packagesPath": "C:\\Users\\ghena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\obj\\",
+        "outputPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ghena\\AppData\\Roaming\\NuGet\\NuGet.Config",

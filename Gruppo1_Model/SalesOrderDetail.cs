@@ -16,7 +16,7 @@ namespace Gruppo1_Model
         [Key]
         [Column("SalesOrderID")]
         public int SalesOrderId { get; set; }
-        [Key]
+        //[Key]
         [Column("SalesOrderDetailID")]
         public int SalesOrderDetailId { get; set; }
         public short OrderQty { get; set; }

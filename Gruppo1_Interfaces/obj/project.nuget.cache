@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HQJN56SUvLpMo/ASVYhm30U8XwRK17aJc0B2SLMVJGag/avD0LH2leEVQd0a05QrJvr3naZ9y/YP7cf/naRDqA==",
+  "dgSpecHash": "sH8v3q2o81AR/vfIQfS+TKcLaz93pfMUE8npbJABBIYoddorVPdXepVz5SvGoq1qVscW7zpBsDH92kHUqrKb+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj",
+  "projectFilePath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Interfaces\\Gruppo1_Interfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ghena\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ghena\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

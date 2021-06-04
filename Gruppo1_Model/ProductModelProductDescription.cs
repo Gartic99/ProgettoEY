@@ -15,10 +15,10 @@ namespace Gruppo1_Model
         [Key]
         [Column("ProductModelID")]
         public int ProductModelId { get; set; }
-        [Key]
+        //[Key]
         [Column("ProductDescriptionID")]
         public int ProductDescriptionId { get; set; }
-        [Key]
+        //[Key]
         [StringLength(6)]
         public string Culture { get; set; }
         [Column("rowguid")]

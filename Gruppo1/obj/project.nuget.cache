@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RuJ+HIxCqe8xSApo+BPwwkB/s6SlnektbT8uSKSz/OKbKZpiOEBEMNRP6rVJkvHTN9Ip6iGPFr2an6gtxiKyvg==",
+  "dgSpecHash": "GtYQZ59fGPVvrBYaCifUgg7tzX6kfnjVJGtkex40KUVub8b4X66ybTLr2jLLtSkhFcFQLoj5lBQ93uDWz0jWyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1\\Gruppo1.csproj",
+  "projectFilePath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1\\Gruppo1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ghena\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ghena\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

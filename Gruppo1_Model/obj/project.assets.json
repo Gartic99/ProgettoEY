@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj",
+      "projectUniqueName": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj",
       "projectName": "Gruppo1_Model",
-      "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\Gruppo1_Model.csproj",
+      "projectPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\Gruppo1_Model.csproj",
       "packagesPath": "C:\\Users\\ghena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_Model\\obj\\",
+      "outputPath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ghena\\AppData\\Roaming\\NuGet\\NuGet.Config",

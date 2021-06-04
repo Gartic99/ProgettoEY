@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "do1kZQeqTuqGuIysjCGTFHeRk8Ypg9X+uFEu7EweNaBGyQMnKXDXHebgC8EAltOrYD/2RRXXB/XsTtieP6k7rQ==",
+  "dgSpecHash": "rvVcEXuZcimgJXz7AZyHt9wcWJorpxQW9ycfl+7zg8iJZS2f2EK6E1yrfASSdFhVSj55fVMWeKkyEbffiAsOqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\Gruppo1\\Gruppo1_DAL\\Gruppo1_DAL.csproj",
+  "projectFilePath": "C:\\Users\\ghena\\Desktop\\Accademia-EY\\esercitazione\\Progetto\\ProgettoEY\\Gruppo1_DAL\\Gruppo1_DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ghena\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ghena\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
