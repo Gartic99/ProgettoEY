@@ -18,6 +18,8 @@ namespace Gruppo1_Interfaces
 
         ProductCategory GetCategoryById(int? id);
         ProductModel GetModelById(int? id);
+
+        bool OrderPerProduct(int id);
         void DeleteProduct(int Id);
     }
 }

@@ -111,9 +111,21 @@ namespace Gruppo1_DAL
             var dbItem = _context.Products.Single(e => e.ProductId == Id);
             if (dbItem != null)
             {
-                _context.Remove(dbItem);
-                _context.SaveChanges();
+                if (!OrderPerProduct(Id))
+                {
+                    _context.Remove(dbItem);
+                    _context.SaveChanges();
+                }
+                else
+                {
+                    Console.WriteLine("il prodotto e presente in degli ordini");
+                }
             }
         }
+
+        public bool OrderPerProduct(int Id)
+        {
+            return _context.Set<SalesOrderDetail>().Any(e => e.ProductId == Id);
+        } 
     }
 }
